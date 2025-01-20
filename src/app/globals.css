@@ -1,0 +1,20 @@
+:root{
+  --main-text-color: #ECDFCC;
+  --main-color: #3C3D37;
+  --secondary-color: #697565;
+  --dark-color: #1E201E;
+  --font-size: 16px;
+  --title-size: 24px;
+}
+
+*, body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #1E201E;
+  background-color: var(--secondary-color);
+  font-family: "Gill Sans", sans-serif;
+}
